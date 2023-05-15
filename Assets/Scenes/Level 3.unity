@@ -286,7 +286,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 11314877}
-  m_LocalRotation: {x: 0.10976568, y: 0.0013134611, z: -0.00014504953, w: 0.9939566}
+  m_LocalRotation: {x: 0.10976568, y: 0.0013136056, z: -0.0001450655, w: 0.9939566}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1114,8 +1114,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 922205078}
-  m_LocalRotation: {x: 0.10976567, y: 0.0013134655, z: -0.00014505004, w: 0.9939566}
-  m_LocalPosition: {x: -0.040330376, y: 4.5, z: -15.259947}
+  m_LocalRotation: {x: 0.10976567, y: 0.0013136057, z: -0.00014506548, w: 0.9939566}
+  m_LocalPosition: {x: -0.040334933, y: 4.5, z: -15.259947}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1244,6 +1244,38 @@ PrefabInstance:
       propertyPath: aimWorld
       value: 
       objectReference: {fileID: 439803065}
+    - target: {fileID: 2297120268942726370, guid: 3812a709f4e4ead45abe69522185f704, type: 3}
+      propertyPath: onBallShooted.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2297120268942726370, guid: 3812a709f4e4ead45abe69522185f704, type: 3}
+      propertyPath: onBallShooted.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2297120268942726370, guid: 3812a709f4e4ead45abe69522185f704, type: 3}
+      propertyPath: onBallShooted.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 397644930}
+    - target: {fileID: 2297120268942726370, guid: 3812a709f4e4ead45abe69522185f704, type: 3}
+      propertyPath: onBallShooted.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2297120268942726370, guid: 3812a709f4e4ead45abe69522185f704, type: 3}
+      propertyPath: onBallShooted.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlaySFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 2297120268942726370, guid: 3812a709f4e4ead45abe69522185f704, type: 3}
+      propertyPath: onBallShooted.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: AudioManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2297120268942726370, guid: 3812a709f4e4ead45abe69522185f704, type: 3}
+      propertyPath: onBallShooted.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 8300000, guid: 23d8e8e68410f334c83b232bf9e5c8f7, type: 3}
+    - target: {fileID: 2297120268942726370, guid: 3812a709f4e4ead45abe69522185f704, type: 3}
+      propertyPath: onBallShooted.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.AudioClip, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2297120268942726395, guid: 3812a709f4e4ead45abe69522185f704, type: 3}
       propertyPath: m_Name
       value: Ball
@@ -1499,8 +1531,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1542030054}
-  m_LocalRotation: {x: 0.12782708, y: 0.0013106149, z: -0.00016891795, w: 0.9917956}
-  m_LocalPosition: {x: 0.000000022351742, y: 0, z: 0}
+  m_LocalRotation: {x: 0.12782708, y: 0.0013107626, z: -0.00016893698, w: 0.9917956}
+  m_LocalPosition: {x: 0.000000029802322, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1928,6 +1960,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4577828643900391785, guid: ee53554e0f0435f478e844838a2517c9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 889020038}
+    - target: {fileID: 4577828643900391785, guid: ee53554e0f0435f478e844838a2517c9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Replay
+      objectReference: {fileID: 0}
+    - target: {fileID: 4577828643900391785, guid: ee53554e0f0435f478e844838a2517c9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlayManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4577828643900391785, guid: ee53554e0f0435f478e844838a2517c9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8619823175544194973, guid: ee53554e0f0435f478e844838a2517c9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -2250,7 +2298,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1869105306}
-  m_LocalRotation: {x: 0.091715805, y: 0.0013158553, z: -0.000121195626, w: 0.9957844}
+  m_LocalRotation: {x: 0.091715805, y: 0.0013160381, z: -0.000121212455, w: 0.9957844}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2661,7 +2709,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2012262684}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.040330376, y: 4.5, z: -15.259947}
+  m_LocalPosition: {x: -0.040334933, y: 4.5, z: -15.259947}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
